@@ -1,0 +1,47 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+ 
+    background-color: rgb(124, 95, 95);
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li {
+    padding: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color:beige;
+    font-size: 25px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    min-height: 80vh;
+    
+}
+
+footer {
+    background-color:rgb(124, 95, 95);
+    color: beige;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+
+}
